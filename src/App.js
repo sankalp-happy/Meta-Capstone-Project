@@ -1,13 +1,14 @@
-import logo from './logo.svg';
+import Highlights from './comp/Highlights';
 import './App.css';
 import Header from './comp/Header';
-import Nav from './comp/Nav';
+import Main from './comp/Main';
 
 function App() {
   return (
     <>
       <Header />
-      <Nav />
+      <Main />
+      <Highlights />
     </>
   );
 }
