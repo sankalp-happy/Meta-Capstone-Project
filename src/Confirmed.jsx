@@ -2,17 +2,17 @@ import Highlights from './comp/Highlights';
 import './App.css';
 import Footer from './comp/Footer';
 import Header from './comp/Header';
-import Main from './comp/Main';
-function App() {
+import ConfirmedBooking from './comp/ConfirmedBooking';
+function Booking() {
 
   return (
     <>
       <Header />
-      <Main />
+      <ConfirmedBooking/>
       <Highlights />
       <Footer />
     </>
   );
 }
 
-export default App;
+export default Booking;

@@ -7,7 +7,7 @@ const Card = (props) => {
             <h4 className="card-price">{props.price}</h4>
             <p className="card-info">{props.content}</p>
             <div className="order-button">
-                <h5 className="order"><a href="">Order delivery</a></h5>
+                <h5 className="order"><button id="order" onClick={() => {props.func("order")}}>Order delivery</button></h5>
             </div>
         </div>
     </div>
